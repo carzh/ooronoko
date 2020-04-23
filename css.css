@@ -5,6 +5,11 @@ FFF194 - cream
 
 verdana pt 12 for body font
 */
+
+@font-face {
+    font-family: 'AbrilFatface-Regular';
+    src: url('fonts/AbrilFatface-Regular.ttf') format('truetype');
+}
 body {
     background-color: #80AA6E;
     margin: 100px 200px 50px 200px;
@@ -17,7 +22,7 @@ body {
     align-self: center;
 }
 h1.aphrabehn {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
     text-align: right;
     margin-top: -25px;
 }
