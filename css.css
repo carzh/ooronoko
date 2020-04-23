@@ -19,27 +19,31 @@ verdana pt 12 for body font
 }
 
 @font-face {
-    font-family: 'Lato Bold';
+    font-family: 'Lato';
     src: url('fonts/Lato-Bold.ttf') format('truetype');
     font-style: normal;
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Lato BoldItalic';
+    font-family: 'Lato';
     src: url('fonts/Lato-BoldItalic.ttf') format('truetype');
-    font-style: normal;
+    font-style: italic;
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Lato Italic';
+    font-family: 'Lato';
     src: url('fonts/Lato-Italic.ttf') format('truetype');
-    font-style: normal;
+    font-style: italic;
+    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Lato';
     src: url('fonts/Lato-Regular.ttf') format('truetype');
     font-style: normal;
+    font-weight: 400;
 }
 
 body {
@@ -51,9 +55,10 @@ body {
 
 .title {
     /*font-style: italic;*/
-    font-family: 'Playfair Display Italic', 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
     font-size: 75px;
     line-height: 80%;
+    font-style: italic;
     align-self: center;
     text-align: center;
 }
@@ -69,15 +74,16 @@ h1.oroonoko {
 h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Lato Bold', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
+    font-weight: 700;
     margin-top: -70px;
     font-size: 24px;
 }
 
 h3 {
-    font-family: 'Lato Italic', Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
 
 .timeline {
@@ -87,4 +93,22 @@ h3 {
     float: left;
     margin-left: 500px;
     border-radius: 7px;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.startdate {
+    position: relative;
+    top: 0px;
+    align-self: center;
+    color:#00353F
 }
