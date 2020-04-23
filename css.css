@@ -7,8 +7,15 @@ verdana pt 12 for body font
 */
 
 @font-face {
-    font-family: 'AbrilFatface-Regular';
-    src: url('fonts/AbrilFatface-Regular.ttf') format('truetype');
+    font-family: 'Playfair Display Medium';
+    src: url('fonts/PlayfairDisplay-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display Italic';
+    src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+    font-style: italic;
 }
 body {
     background-color: #80AA6E;
@@ -16,30 +23,29 @@ body {
 }
 
 .title {
-    font-style: italic;
+    /*font-style: italic;*/
+    font-family: 'Playfair Display Italic';
     font-size: 75px;
     line-height: 80%;
     align-self: center;
-}
-h1.aphrabehn {
-    font-family: 'Times New Roman', Times, serif; 
-    text-align: right;
-    margin-top: -25px;
+    text-align: center;
 }
 
-h1.theforgettingof {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+h1.aphrabehn {
     font-size: 120px;
-    letter-spacing: 2px;
+}
+
+h1.oroonoko {
+    padding-left: 100px;
+    margin-top: -28px;
 }
 h2 {
     text-transform: uppercase;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    margin-top: -70px;
-    margin-left: 70px;
+    font-style: normal;
+    margin-top: -80px;
+    font-size: 24px;
 }
 
 h3 {
