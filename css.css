@@ -95,6 +95,8 @@ h2 {
 h3 {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+    text-align: center;
+    margin-top: -20px;
 }
 .bodyyy {
     width: 900px;
@@ -113,22 +115,33 @@ h3 {
 
 .startdate {
     top: 0px;
-    left: 50px;
+    margin-left: 108px;
     width: 50px;
-    color:#00353F
+    color:#00353F;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .birthdate {
     position: static;
+    float: left;
     width: 440px;
-    top: 500px;
-    left: -220px;
+    margin-left: -465px;
+    margin-top: 75px;
 }
 
 .topborder {
+    position: relative;
     background-color: #FF4E2A;
-    width: 500px;
-    height: 12px;
+    width: 440px;
+    height: 20px;
     border-radius: 6px;
     top: 0px;
+}
+
+.date {
+    position: relative;
+    top: 0px;
+    margin-left: -300px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
