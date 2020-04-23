@@ -15,16 +15,43 @@ verdana pt 12 for body font
 @font-face {
     font-family: 'Playfair Display Italic';
     src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
-    font-style: italic;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato BoldItalic';
+    src: url('fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Italic';
+    src: url('fonts/Lato-Italic.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
 body {
     background-color: #80AA6E;
     margin: 100px 200px 50px 200px;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
 }
 
 .title {
     /*font-style: italic;*/
-    font-family: 'Playfair Display Italic';
+    font-family: 'Playfair Display Italic', 'Times New Roman', Times, serif;
     font-size: 75px;
     line-height: 80%;
     align-self: center;
@@ -36,18 +63,28 @@ h1.aphrabehn {
 }
 
 h1.oroonoko {
-    padding-left: 100px;
+    padding-left: 108px;
     margin-top: -28px;
 }
 h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato Bold', Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
-    margin-top: -80px;
+    margin-top: -70px;
     font-size: 24px;
 }
 
 h3 {
+    font-family: 'Lato Italic', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
 
+.timeline {
+    width: 15px;
+    height: 500px;
+    background-color: #00353F;
+    float: left;
+    margin-left: 500px;
+    border-radius: 7px;
 }
