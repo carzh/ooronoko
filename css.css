@@ -1,0 +1,42 @@
+/* 80AA6E - green
+FF4E2A - orange / red
+00353F - navy
+FFF194 - cream
+
+verdana pt 12 for body font
+*/
+body {
+    background-color: #80AA6E;
+    margin: 100px 200px 50px 200px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 75px;
+    line-height: 80%;
+    align-self: center;
+}
+h1.aphrabehn {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    margin-top: -25px;
+}
+
+h1.theforgettingof {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 120px;
+    letter-spacing: 2px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+h3 {
+
+}
